@@ -19,4 +19,4 @@ if (navClose) {
 /* GASP ANIMATION */
 
 gsap.from('.main__card', 1, {opacity: 0, x: 200, delay: .1});
-gsap.from('.container__img', 1, {opacity: 0, y: -400, delay: .1})
+gsap.from('.container__img', 1, {opacity: 0, x: -400, delay: .1})
