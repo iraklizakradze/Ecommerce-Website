@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@100;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script defer src="/assets/scripts/main.js"></script>
+    <title>Ecommerce Website</title>
+</head>
+<body>
+
+    <!-- || HEADER & NAV -->
+
+    <header class="header" id="header">
+        <nav class="navbar" id="navbar">
+            <div class="navbar__logo">
+                <a href="#"><img src="/assets/images/favicon.svg" alt="Meubel House Logo"></a>
+                <a class="navbar__header--title" href="#">Furniro</a>
+            </div>
+
+            <div class="navbar__menu" id="navbar-menu">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">Shop</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#" class="navbar__link">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="pages/contact.html" class="navbar__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="navbar__actions--2">
+
+                    <!-- || USER BUTTON -->
+
+                    <svg class="navbar__user" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg>
+
+                    <!-- || SEARCH BUTTON -->
+
+                    <svg class="navbar__search" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+
+                    <!-- || FAVORITE BUTTON -->
+
+                    <svg class="navbar__favorite" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                    </svg>
+
+                    <!-- || SHOPPING BUTTON -->
+
+                    <svg class="navbar__shopping" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                    </svg>
+
+                </div>
+
+                <!-- || CLOSE BUTTON -->
+
+                <div class="navbar__close" id="navbar-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="navbar__actions">
+
+                <!-- || USER BUTTON -->
+
+                <svg class="navbar__user" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z"/>
+                </svg>
+
+                <!-- || SEARCH BUTTON -->
+
+                <svg class="navbar__search" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+
+                <!-- || FAVORITE BUTTON -->
+
+                <svg class="navbar__favorite" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                </svg>
+
+                <!-- || SHOPPING BUTTON -->
+
+                <svg class="navbar__shopping" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                </svg>
+            </div>
+
+            <!-- || TOGGLE BUTTON -->
+
+            <div class="navbar__toggle" id="navbar-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- || MAIN -->
+
+    <main class="main" id="main">
+
+        <!-- || HOME SECTION -->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <img class="container__img" src="/assets/images/scandinavian-interior-mockup-wall-decal-background 1.png" alt="Mockup Wall">
+                <div class="main__card">
+                    <div class="main__card__title">
+                        <span class="card__title">New Arrival</span>
+                    </div>
+                    <div class="main__card__header">
+                        <h1>Discover Our New Collection</h1>
+                    </div>
+
+                    <div class="mainc__card__content">
+                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit 
+                            tellus, luctus nec ullamcorper mattis.</p>
+                    </div>
+
+                    <div class="main__card__btn">
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- || RANGE SECTION-->
+        <section class="container__section--range">
+            <div class="section__range">
+                <div class="section__range__head">
+                    <h1>Browse The Range</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+                
+            <div class="section__range__images">
+                <figure>
+                    <img src="/assets/images/Mask Group.png" alt="">
+                    <figcaption>Dining</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/assets/images/Image-living room.png" alt="">
+                    <figcaption>Living Room</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="/assets/images/Mask Group 3.png" alt="">
+                    <figcaption>Bedroom</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- || PRICE SECTION -->
+        <section class="section__products">
+            <h1 class="products__title">
+                Our Products
+            </h1>
+            <p class="products__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+            <div class="container__products">
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/syltherine.png"/>
+                    <h3 class="product__header">SYLTHERINE</h3>
+                    <p class="product__paragraph">Stylish Cafe Chair</p>
+                    <h5 class="product__price">$161.69</h5>
+                    <h6 class="product__undiscount--price">$226.18</h6>
+                    <img class="product__discount" src="/assets/images/discount.svg">
+                    <span class="product__discount--price">-30%</span>
+                </div>
+
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/leviosa.png"/>
+                    <h3 class="product__header">LEVIOSA</h3>
+                    <p class="product__paragraph">Stylish Cafe Chair</p>
+                    <h5 class="product__price">$161.69</h5>
+                </div>
+
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/Lolito.png"/>
+                    <h3 class="product__header">LOLITO</h3>
+                    <p class="product__paragraph">Luxury Big Sofa</p>
+                    <h5 class="product__price">$452.73</h5>
+                    <h6 class="product__undiscount--price">$904.71</h6>
+                    <img class="product__discount" src="/assets/images/discount.svg">
+                    <span class="product__discount--price">-50%</span>
+                </div>
+
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/respira.png"/>
+                    <h3 class="product__header">RESPIRA</h3>
+                    <p class="product__paragraph">Outdoor Bar Table and Stool</p>
+                    <h5 class="product__price">$32.34</h5>
+                    <img class="product__discount" src="/assets/images/Ellipse 3.svg">
+                    <span class="product__discount-">NEW</span>
+                </div>
+
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/grifo.png"/>
+                    <h3 class="product__header">GRIFO</h3>
+                    <p class="product__paragraph">Night lamp</p>
+                    <h5 class="product__price">$97.01</h5>
+                </div>
+
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/muggo.png"/>
+                    <h3 class="product__header">MUGGO</h3>
+                    <p class="product__paragraph">Small mug</p>
+                    <h5 class="product__price">$9.70</h5>
+                    <img class="product__discount" src="/assets/images/Ellipse 3.svg">
+                    <span class="product__discount-">NEW</span>
+                </div>
+
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/pingky.png"/>
+                    <h3 class="product__header">PINGKY</h3>
+                    <p class="product__paragraph">Cute Bed Set</p>
+                    <h5 class="product__price">$452.73</h5>
+                    <h6 class="product__undiscount--price">$904.71</h6>
+                    <img class="product__discount" src="/assets/images/discount.svg">
+                    <span class="product__discount--price">-50%</span>
+                </div>
+
+                <div class="product__card">
+                    <img class="product__img" src="/assets/images/potty.png"/>
+                    <h3 class="product__header">POTTY</h3>
+                    <p class="product__paragraph">Minimalist Flower Pot</p>
+                    <h5 class="product__price">$32.34</h5>
+                    <img class="product__discount" src="/assets/images/Ellipse 3.svg">
+                    <span class="product__discount-">NEW</span>
+                </div>
+            </div>
+
+            <div class="button__showmore">
+                <button>Show More</button>
+            </div>
+
+        </section>
+
+        <!-- || SHARE SETUP SECTION-->
+        <section class="share__section" id="share-section">
+
+            <div class="share__container">
+                <div class="share__head">
+                    <p>Share your setup with</p>
+                    <h2>#FuniroFurniture</h2>
+                </div>
+                    <div class="share__images">
+                        <img class="simg" id="rc4" src="/assets/images/rectangle40.png"/>
+                        <img class="simg" id="rc3" src="/assets/images/rectangle36.png"/>
+                        <img class="simg" id="rc38" src="/assets/images/rc38.png"/>
+                        <img class="simg" id="rc43" src="/assets/images/rc43.png"/>
+                        <img class="simg" id="rc45" src="/assets/images/rc45.png"/>
+
+                        <img class="simg" id="rc37" src="/assets/images/rc37.png"/>
+                        <img class="simg" id="rc39" src="/assets/images/rc39.png"/>
+                        <img class="simg" id="rc41" src="/assets/images/rc41.png"/>
+                        <img class="simg" id="rc44" src="/assets/images/rc44.png"/>
+                    </div>
+
+            </div>
+
+        </section>
+        
+    </main>
+
+    <!-- || FOOTER -->
+    <footer class="footer" id="footer">
+        <div class="footer__container">
+            <div class="footer__data">
+
+                <div>
+                    <a href="#" class="footer__logo">Funiro.</a>
+                    <p class="footer__description">400 University Drive Suite 200 Coral Gables,
+                        FL 33134 USA</p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Links</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Help</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Payment Options</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Returns</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Privacy Policies</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__subcription">
+
+                    <h3 class="footer__title">NewsLetter</h3>
+
+                    <form action="#">
+                        <input class="footer__email" type="email" id="email" placeholder="Enter Your Email Address"/>
+                        <label class="footer__subscribe" for="email" id="subscribe">SUBSCRIBE</label>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <span class="footer__copy">
+            @ 2023 Furino. All rights reverved
+        </span>
+
+    </footer>
+</body>
+</html>
